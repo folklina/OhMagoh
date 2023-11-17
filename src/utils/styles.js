@@ -44,7 +44,8 @@ export const styles = StyleSheet.create({
     textinho: {
       color: "#e3e3e3",
       fontSize: 16,
-      textAlign: "Justify"
+      textAlign: "Justify",
+      marginBottom: 20,
     },
 
     parag: {
