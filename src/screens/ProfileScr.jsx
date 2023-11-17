@@ -11,7 +11,7 @@ export default function ProfileScr(){
                 <Text style={styles.textinhoo}>Tenho 16 anos, faço Técnico em Informática no Senac e concluirei em dois anos. Meus hobbies favoritos são dormir e ser fã da Taylor Swift.
                 <br/>
                 <br/>
-                <Text style={styles.textinhoo}>Tenho 16 anos, faço Técnico em Informática no Senac e concluirei em dois anos. Meus hobbies favoritos são dormir e ser fã da Taylor Swift.
+                <Text style={styles.textinhoo}>Amo gatos e minha série favorita é F.R.I.E.N.D.S...
                 </Text>
                 </Text>
                 <Text style={styles.textinhoo}></Text>
