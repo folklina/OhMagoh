@@ -5,6 +5,10 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import ProfileScr from "./screens/ProfileScr";
 import { View } from "react-native";
 import { Text } from "react-native-paper";
+import { Styles, styles } from "./utils/styles";
+import ApiScr from "./screens/ApiScr";
+import CityScr from "./screens/CityScr";
+import FormScr from "./screens/FormScr";
 
 const Stack = createMaterialBottomTabNavigator();
 
@@ -34,6 +38,36 @@ export default function RootNavigation() {
                         ),
 
                     }} />
+                    <Stack.Screen
+                    name="Cidade"
+                    component={CityScr}
+
+                    options={{
+                        tabBarIcon: ({ color }) => (
+                            <MaterialCommunityIcons name="apple-icloud" color={color} size={26} />
+                        ),
+                    }}
+                    />
+                    <Stack.Screen
+                    name="Formulário"
+                    component={FormScr}
+
+                    options={{
+                        tabBarIcon: ({ color }) => (
+                            <MaterialCommunityIcons name="bacteria-outline" color={color} size={26} />
+                        ),
+                    }}
+                    />
+                    <Stack.Screen
+                    name="Api"
+                    component={ApiScr}
+
+                    options={{
+                        tabBarIcon: ({ color }) => (
+                            <MaterialCommunityIcons name="alien" color={color} size={26} />
+                        ),
+                    }}
+                    />
             </Stack.Navigator>
         </NavigationContainer>
     );
@@ -43,8 +77,8 @@ const Tab = createNativeStackNavigator();
 
 function MyTab() {
     return (
-        <View>
-            <Text>Oiii</Text>
+        <View style={styles.body}>
+            <Text style={styles.title}>É sor, ta ai meu trabalho</Text>
         </View>
     )
 }
