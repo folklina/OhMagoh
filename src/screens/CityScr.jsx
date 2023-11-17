@@ -8,13 +8,18 @@ export default function CityScr(){
             <Text style={styles.title}>
                 Joinville
             </Text>
+            <Image  
+            source={require('../img/joidois.jpg')}
+            style={{ width: 1300, height: 180, marginLeft: 190}}/>
+            <Text style={styles.titleS}>
+                Conheça mais da maior cidade de Santa Catarina!
+            </Text>
+        
             <View style={styles.parag}>
             <Paragraph style={styles.textinho}>
-                Joinville é uma cidade brasileira localizada no estado de Santa Catarina. É a maior cidade do estado em termos de população e uma das mais importantes economicamente. Fundada em 9 de março de 1851, Joinville é conhecida por sua forte presença industrial, com destaque para setores como metalurgia, química e plásticos.
+            
+            Joinville é uma cidade brasileira localizada no estado de Santa Catarina, sendo a maior cidade do estado em população. Reconhecida por sua economia diversificada, Joinville destaca-se pela presença de indústrias, comércio e serviços. Além disso, a cidade é conhecida por sua forte influência cultural, evidenciada em eventos como o Festival de Dança de Joinville, um dos maiores do mundo. Com um ambiente propício para o desenvolvimento empresarial e cultural, Joinville combina crescimento econômico com uma rica vida cultural.
             </Paragraph>
-            <Image  
-            source={require('../img/uc.jpg')}
-            style={{ width: 265, height: 150 }}/>
             </View>
         </View>
     )

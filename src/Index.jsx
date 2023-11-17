@@ -3,7 +3,7 @@ import { createMaterialBottomTabNavigator } from "@react-navigation/material-bot
 import { MaterialCommunityIcons } from "react-native-vector-icons";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import ProfileScr from "./screens/ProfileScr";
-import { View } from "react-native";
+import { View, Image } from "react-native";
 import { Text } from "react-native-paper";
 import { Styles, styles } from "./utils/styles";
 import ApiScr from "./screens/ApiScr";
@@ -20,14 +20,7 @@ export default function RootNavigation() {
                 shifting={true}
                 barStyle={{ backgroundColor: "#0D0D0D" }}
             >
-                <Stack.Screen
-                    name="Home"
-                    component={MyTab}
-                    options={{
-                        tabBarIcon: ({ color }) => (
-                            <MaterialCommunityIcons name="home" color={color} size={26} />
-                        ),
-                    }} />
+                
                 <Stack.Screen
                     name="Perfil"
                     component={ProfileScr}
@@ -78,7 +71,13 @@ const Tab = createNativeStackNavigator();
 function MyTab() {
     return (
         <View style={styles.body}>
-            <Text style={styles.title}>É sor, ta ai meu trabalho</Text>
+            <Text style={styles.title}>Home</Text>
+            <Image  
+            source={require('./img/catioro.jpg')}
+            style={{ width: 150, height: 150, marginLeft: 750}}/>
+            <Text style={styles.titlee}>É sor, ta ai meu trabalho, um pouquinho diferente do que era pra fazer mas me empolguei :))</Text>
         </View>
+
+        
     )
 }

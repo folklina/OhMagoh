@@ -21,31 +21,94 @@ export const styles = StyleSheet.create({
       alignSelf: "center",
     },
 
+    containerr: {
+      padding: 15,
+      alignSelf: "center",
+      color: "#e3e3e3",
+    },
+
     title: {
-      fontSize: 35,
+      fontSize: 70,
       fontWeight: "bold",
       color: "#e3e3e3",
       paddingRight: 100,
       position: "relative",
       padding: 50,
+      justifyContent: 'center',
+      alignItems: 'center',
+      textAlign: 'center',
+    },
+
+    titlee: {
+      fontSize: 22,
+      fontWeight: "bold",
+      color: "#e3e3e3",
+      paddingRight: 100,
+      position: "relative",
+      padding: 50,
+      textAlign: 'center',
 
     },
 
     titleS: {
-      fontSize: 20,
+      fontSize: 25,
       fontWeight: "bold",
       color: "#e3e3e3",
       paddingRight: 100,
       position: "relative",
       padding: 30,
+      textAlign: 'center',
+      marginTop: 2,
+      lineHeight: 20,
+    },
 
+    titleeS: {
+      fontSize: 22,
+      fontWeight: "bold",
+      color: "#e3e3e3",
+      paddingRight: 100,
+      position: "relative",
+      padding: 30,
+      textAlign: 'center',
+      marginTop: 2,
+      lineHeight: 20,
     },
 
     textinho: {
       color: "#e3e3e3",
-      fontSize: 16,
+      fontSize: 20,
       textAlign: "Justify",
       marginBottom: 20,
+      marginLeft: 0,
+      justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'justify',
+    width: '70%' ,
+    marginLeft: 230,
+    lineHeight: 30,
+    },
+
+    textinhoo: {
+      color: "#e3e3e3",
+      fontSize: 20,
+      textAlign: "Justify",
+      marginBottom: 20,
+      marginLeft: 0,
+    textAlign: 'center',
+  
+    lineHeight: 30,
+    },
+
+    textinhooo: {
+      color: "#e3e3e3",
+      fontSize: 20,
+      textAlign: "Justify",
+      marginBottom: 20,
+      marginLeft: 0,
+      justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    lineHeight: 30,
     },
 
     parag: {
@@ -134,4 +197,9 @@ export const styles = StyleSheet.create({
       padding: 10,
     }
 
+
+
+
   });
+
+  

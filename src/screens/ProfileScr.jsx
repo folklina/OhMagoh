@@ -1,18 +1,29 @@
-import { View } from "react-native";
+import { View, Image, TouchableOpacity, Linking, StyleSheet } from "react-native";
 import { styles } from "../utils/styles";
 import { Text } from "react-native-paper";
+
 
 export default function ProfileScr(){
     return(
         <View style={styles.body}>
-            <Text style={styles.titleS}>Olá, me chamo Carol</Text>
+            <Text style={styles.titleS}>Oláá, me chamo Carol</Text>
             <View style={styles.parag}>
-                <Text style={styles.textinho}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis assumenda, ab reprehenderit dolore porro, fugiat sit quasi dolores adipisci odit repudiandae itaque ipsum dignissimos ullam quae beatae. Repudiandae, reprehenderit culpa.</Text>
-                <Text style={styles.textinho}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit atque doloremque repellendus officia recusandae ea eligendi sunt similique, aliquid voluptatem minus quasi eos inventore excepturi neque ipsam porro. Provident, veritatis!</Text>
-                <Text style={styles.textinho}>✉️ caholiverw@gmail.com</Text>
-                <Text style={styles.textinho}>📞 +55 (41) 992594259</Text>
+                <Text style={styles.textinhoo}>Tenho 16 anos, faço Técnico em Informática e concluirei em dois anos. Meus hobbies favoritos são dormir e ser fã da Taylor Swift.
+                <br/>
+                
+                </Text>
+                <Text style={styles.textinhoo}>Espero que o senhor goste do que tentei fazer ao menos :)</Text>
+                <Image  
+            source={require('../img/gatiti.PNG')}
+            style={{ width: 250, height: 250, marginLeft: 700}}/>
+                
+                <Text style={styles.titleeS}>Outras formas de contato:</Text>
 
-                <Text style={styles.textinho}>Tenho dona. 💍</Text>
+
+                <Text style={styles.textinhooo}>Tenho dona. 💍</Text>
+                <View style={styles.parag}>
+
+        </View>
             </View>
         </View>
     )
