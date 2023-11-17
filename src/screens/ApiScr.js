@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "../utils/App.css";
+import {ScrollView} from "react-native"
 
 
 export default function ApiScr() {
@@ -128,8 +129,5 @@ export default function ApiScr() {
       </header>
       <div className="lista-principal">{conteudo}</div>
     </div>
-    
   );
 }
-
-// export default App;

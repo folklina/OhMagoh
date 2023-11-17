@@ -21,7 +21,6 @@ export default function FormScr({navigation}) {
             <TextInput
                 placeholder="Insira a Senha "
                 style={styles.textinput}
-                multiline
             />
             <Button
                 mode="contained"
