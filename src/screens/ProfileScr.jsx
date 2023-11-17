@@ -6,23 +6,24 @@ import { Text } from "react-native-paper";
 export default function ProfileScr(){
     return(
         <View style={styles.body}>
-            <Text style={styles.titleS}>Oláá, me chamo Carol</Text>
+            <Text style={styles.titleS}>Olá, me chamo Carol</Text>
             <View style={styles.parag}>
-                <Text style={styles.textinhoo}>Tenho 16 anos, faço Técnico em Informática e concluirei em dois anos. Meus hobbies favoritos são dormir e ser fã da Taylor Swift.
+                <Text style={styles.textinhoo}>Tenho 16 anos, faço Técnico em Informática no Senac e concluirei em dois anos. Meus hobbies favoritos são dormir e ser fã da Taylor Swift.
                 <br/>
-                
+                <br/>
+                <Text style={styles.textinhoo}>Tenho 16 anos, faço Técnico em Informática no Senac e concluirei em dois anos. Meus hobbies favoritos são dormir e ser fã da Taylor Swift.
                 </Text>
-                <Text style={styles.textinhoo}>Espero que o senhor goste do que tentei fazer ao menos :)</Text>
+                </Text>
+                <Text style={styles.textinhoo}></Text>
+                <Text style={styles.titleeS}>Outras formas de contato:</Text>
+                <Text style={styles.textinhoooo}>✉️ caholiverw@gmail.com</Text>
+                <Text style={styles.textinhoooo}>📞 +55 (41) 992594259</Text>
+                
+                <Text style={styles.textinhoooo}>Tenho dona. 💍</Text>
+                <View style={styles.parag}>
                 <Image  
             source={require('../img/gatiti.PNG')}
-            style={{ width: 250, height: 250, marginLeft: 700}}/>
-                
-                <Text style={styles.titleeS}>Outras formas de contato:</Text>
-
-
-                <Text style={styles.textinhooo}>Tenho dona. 💍</Text>
-                <View style={styles.parag}>
-
+            style={{ width: 250, height: 250, marginLeft: 670}}/>
         </View>
             </View>
         </View>

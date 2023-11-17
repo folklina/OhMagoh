@@ -111,6 +111,19 @@ export const styles = StyleSheet.create({
     lineHeight: 30,
     },
 
+    textinhoooo: {
+      color: "#e3e3e3",
+      fontSize: 20,
+      textAlign: "Justify",
+      marginBottom: 20,
+      marginLeft: 0,
+      justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    lineHeight: 30,
+    marginRight: 60,
+    },
+
     parag: {
       padding: 20,
     },
